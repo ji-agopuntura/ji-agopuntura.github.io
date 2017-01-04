@@ -1,0 +1,5 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+RedirectMatch ^/$ /d/
+order deny,allow

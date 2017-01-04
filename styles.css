@@ -1,0 +1,80 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	/*text-align: center;  for IE */
+	width: 713px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+em {
+	font-weight: bold;
+	color: #FF5200;
+	font-style: normal;
+}
+
+.leftColumn {
+	text-align: left;
+	float: left;	
+	width: 50%;
+}
+
+.rightColumn{
+	text-align: right;
+	float: left;
+	width: 49%; 
+	
+}
+
+.rightColumn a{
+	font-weight: bold; 
+}
+
+.langSelector {
+	text-align: right;
+}
+
+.navLevel1 {
+	position: relative;
+	left: 5px;
+}
+
+.navLevel2 {
+	position: relative;
+	left: 30px;
+}
+
+
+ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: black;
+	text-decoration:none;
+}
+
+a.active, a:hover {
+	color: #FF5200;
+}
+

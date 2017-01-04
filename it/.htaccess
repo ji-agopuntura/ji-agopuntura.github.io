@@ -1,0 +1,22 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea.html http://ji-agopuntura.ch/i/studio.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Agopuntura.html http://ji-agopuntura.ch/i/agopuntura.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Amministrativi.html http://ji-agopuntura.ch/i/amministrativi.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Contatto.html http://ji-agopuntura.ch/i/contatto.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Coppettazione.html http://ji-agopuntura.ch/i/coppettazione.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Craniopuntura_e_Auricoloterapia.html http://ji-agopuntura.ch/i/craniopuntura-e-auricoloterapia.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Metodo_Dorn.html http://ji-agopuntura.ch/i/metodo-dorn.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Moxibustione.html http://ji-agopuntura.ch/i/moxibustione.html
+Redirect permanent /it/Studio_di_agopuntura_Julo_Indemini_Basilea_Terapeuta.html http://ji-agopuntura.ch/i/terapeuta.html
+Redirect permanent /it/Agopuntura.html http://ji-agopuntura.ch/i/agopuntura.html
+Redirect permanent /it/Amministrativi.html http://ji-agopuntura.ch/i/amministrativi.html
+Redirect permanent /it/Contatto.html http://ji-agopuntura.ch/i/contatto.html
+Redirect permanent /it/Coppettazione.html http://ji-agopuntura.ch/i/coppettazione.html
+Redirect permanent /it/Craniopuntura_e_Auricoloterapia.html http://ji-agopuntura.ch/i/craniopuntura-e-auricoloterapia.html
+Redirect permanent /it/Metodo_Dorn.html http://ji-agopuntura.ch/i/metodo-dorn.html
+Redirect permanent /it/Moxibustione.html http://ji-agopuntura.ch/i/moxibustione.html
+Redirect permanent /it/Terapeuta.html http://ji-agopuntura.ch/i/terapeuta.html
+Redirect permanent /it/Studio.html http://ji-agopuntura.ch/i/studio.html
+order deny,allow

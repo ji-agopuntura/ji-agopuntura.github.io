@@ -1,0 +1,22 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel.html http://ji-agopuntura.ch/d/praxis.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Therapeut.html http://ji-agopuntura.ch/d/therapeut.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Administratives.html http://ji-agopuntura.ch/d/administratives.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Akupunktur.html http://ji-agopuntura.ch/d/akupunktur.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Dorn-Therapie.html http://ji-agopuntura.ch/d/dorn-therapie.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Kontakt.html http://ji-agopuntura.ch/d/kontakt.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Moxibustion.html http://ji-agopuntura.ch/d/moxibustion.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Schaedelakupunktur_und_Ohrakupunktur.html http://ji-agopuntura.ch/d/schaedel-und-ohrakupunktur.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel_Schropfen.html http://ji-agopuntura.ch/d/schroepfen.html
+Redirect permanent /de/Administratives.html http://ji-agopuntura.ch/d/administratives.html
+Redirect permanent /de/Akupunktur.html http://ji-agopuntura.ch/d/akupunktur.html
+Redirect permanent /de/Dorn-Therapie.html http://ji-agopuntura.ch/d/dorn-therapie.html
+Redirect permanent /de/Kontakt.html http://ji-agopuntura.ch/d/kontakt.html
+Redirect permanent /de/Moxibustion.html http://ji-agopuntura.ch/d/moxibustion.html
+Redirect permanent /de/Praxis_fuer_Akupunktur_Julo_Indemini_Basel.html http://ji-agopuntura.ch/d/praxis.html
+Redirect permanent /de/Schaedelakupunktur_und_Ohrakupunktur.html http://ji-agopuntura.ch/d/schaedel-und-ohrakupunktur.html
+Redirect permanent /de/Schropfen.html http://ji-agopuntura.ch/d/schroepfen.html
+Redirect permanent /de/Therapeut.html http://ji-agopuntura.ch/d/therapeut.html
+order deny,allow
